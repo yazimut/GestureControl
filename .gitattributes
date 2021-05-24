@@ -1,0 +1,50 @@
+# All files
+*                   text=auto
+
+# Git special files
+.gitkeep            text eol=lf
+.gitignore          text eol=lf
+.gitattributes      text eol=lf
+
+# Editor config
+.editorconfig       text eol=lf
+
+# License
+LICENSE             text eol=lf
+
+# Visual Studio files
+*.sln               text eol=crlf
+*.vcxproj*          text eol=crlf
+
+# Plain text
+*.txt               text eol=lf
+
+# Makefiles
+Makefile            text eol=lf
+
+# Windows CMD and PowerShell scripts
+*.bat               text eol=crlf
+*.cmd               text eol=crlf
+*.ps1               text eol=crlf
+
+# Shell scirpts
+*.sh                text eol=lf
+*.bash              text eol=lf
+*.fish              text eol=lf
+
+# Linker scripts
+*.ld                text eol=lf
+
+# Markdown
+*.md                text eol=lf
+*.markdown          text eol=lf
+
+# C
+*.h                 text eol=lf
+*.c                 text eol=lf
+
+# C++
+*.hpp               text eol=lf
+*.h++               text eol=lf
+*.cpp               text eol=lf
+*.c++               text eol=lf

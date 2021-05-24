@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{1B473E0A-A291-49E1-B92F-68136268D817}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4D53D63-7F5D-4428-A8E9-42BA759205C3} = {B4D53D63-7F5D-4428-A8E9-42BA759205C3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Model", "Model\Model.vcxproj", "{B4D53D63-7F5D-4428-A8E9-42BA759205C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDF40B89-74B7-405A-82B4-D9DBE5697E90}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		convert_model.py = convert_model.py
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B473E0A-A291-49E1-B92F-68136268D817}.Debug|x64.ActiveCfg = Debug|x64
+		{1B473E0A-A291-49E1-B92F-68136268D817}.Debug|x64.Build.0 = Debug|x64
+		{1B473E0A-A291-49E1-B92F-68136268D817}.Release|x64.ActiveCfg = Release|x64
+		{1B473E0A-A291-49E1-B92F-68136268D817}.Release|x64.Build.0 = Release|x64
+		{B4D53D63-7F5D-4428-A8E9-42BA759205C3}.Debug|x64.ActiveCfg = Debug|x64
+		{B4D53D63-7F5D-4428-A8E9-42BA759205C3}.Debug|x64.Build.0 = Debug|x64
+		{B4D53D63-7F5D-4428-A8E9-42BA759205C3}.Release|x64.ActiveCfg = Release|x64
+		{B4D53D63-7F5D-4428-A8E9-42BA759205C3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B7029D-D50F-4CE8-A130-78F7E6D9EA82}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+# Root of project.
+# Don't inherit same config files from the parent directories.
+root = true
+
+#### Global parameters EditorConfig ####
+[*]
+
+# Indentation
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+# New lines
+end_of_line = lf
+insert_final_newline = true
