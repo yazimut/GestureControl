@@ -28,11 +28,21 @@ Using a tray icon you can add or remove an application from autorun, pause or re
 ## Gestures
 To control Windows multimedia system you can use one of following gestures:
 
-* Fist - Stop
-* Palm - Play/Pause
-* Thump up - Increase volume
-* Thump down - Decrease volume
-* Spok - Pause recognition (manual resuming via tray icon is required)
+* Fist - Stop  
+![/img/Gesture_Fist.gif](https://github.com/yazimut/GestureControl/raw/master/img/Gesture_Fist.gif)  
+
+* Palm - Play/Pause  
+![/img/Gesture_Palm.gif](https://github.com/yazimut/GestureControl/raw/master/img/Gesture_Palm.gif)  
+
+* Thump up - Increase volume  
+![/img/Gesture_ThumbUp.gif](https://github.com/yazimut/GestureControl/raw/master/img/Gesture_ThumbUp.gif)  
+
+* Thump down - Decrease volume  
+![/img/Gesture_ThumbDown.gif](https://github.com/yazimut/GestureControl/raw/master/img/Gesture_ThumbDown.gif)  
+
+* Spok - Pause recognition  
+![/img/Gesture_Spok.gif](https://github.com/yazimut/GestureControl/raw/master/img/Gesture_Spok.gif)  
+Note, that after pausing recognition, you need to resume it manually through tray icon.
 
 ## Software requirements for development
 * OS:
